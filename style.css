@@ -137,3 +137,47 @@ body{
   bottom: -60px;
   right: -28px
 }
+@media (max-width: 700px){
+  .container{
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .left{
+    width: 85%;
+    padding: 24px 0;
+  }
+
+  .left h1{
+    margin-bottom: 18px;
+  }
+
+  .right{
+    padding: 32px 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .info-img{
+    width: 50%
+  }
+}
+
+@media (max-width: 500px){
+  .info-img{
+    width: 84%;
+  }
+
+  .subtitle{
+    margin-bottom: 18px;
+    font-size: 32px;
+    max-width: 400px;
+    padding: 0 14px;
+    text-align: center;
+  }
+
+  .description{
+    max-width: 400px;
+    padding: 0 14px;
+  }
+}
